@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Pig
+comment0.text=\r\n\ The\ pig\ class\ is\ used\ as\ the\ main\ character\ for\ the\ game.\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ This\ method\ allows\ "moveAndTurn"\ and\ "eat"\ to\ be\ called\ whenever\ tge\ "Act"\ or\ "Run"\ button\ is\ used\ in\ Greenfoot.\ This\ method\ also\ allows\ for\ the\ game\ to\ play\ the\ "win.wav"\ sound\ effect,\ and\ then\ use\ method\ "transitionToGameWonWorld".\r\n
+comment2.params=
+comment2.target=void\ moveAndTurn()
+comment2.text=\r\n\ This\ method\ allows\ the\ pig\ to\ move\ around\ with\ the\ use\ of\ the\ arrow\ keys.\r\n
+comment3.params=
+comment3.target=void\ eat()
+comment3.text=\r\n\ This\ method\ allows\ the\ pig\ to\ eat\ the\ burgers.\ Once\ a\ burger\ is\ touched,\ it\ gets\ removed,\ and\ the\ "eating.wav"\ sound\ effect\ in\ the\ "sounds"\ folder\ gets\ played.\r\n
+comment4.params=
+comment4.target=boolean\ isGameWon()
+comment4.text=\r\n\ In\ this\ method,\ the\ game\ is\ checking\ to\ see\ if\ there\ are\ any\ burger\ classes\ in\ the\ game.\ If\ the\ burger\ count\ is\ equal\ to\ zero,\ the\ game\ will\ consider\ isGameWon\ to\ be\ True.\r\n
+comment5.params=
+comment5.target=void\ transitionToGameWonWorld()
+comment5.text=\r\n\ This\ method\ allows\ the\ game\ to\ transition\ to\ the\ Game\ Won\ World.\r\n
+numComments=6

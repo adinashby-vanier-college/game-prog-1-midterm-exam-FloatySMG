@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Snake
+comment0.text=\r\n\ The\ Snake\ is\ the\ main\ enimy\ in\ the\ game.\ Essentially\ what\ the\ pig\ must\ avoid.\ If\ he\ eliminates\ the\ pig,\ the\ Game\ Over\ Screen\ is\ shown.\r\n
+comment1.params=
+comment1.target=Snake()
+comment1.text=\r\n\ This\ constructor\ allows\ the\ snake\ to\ use\ the\ method\ "randoDirection".\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ This\ method\ allows\ "moveAround",\ "eliminatePig",\ "randomDirection"\ and\ "move"\ to\ be\ called\ whenever\ tge\ "Act"\ or\ "Run"\ button\ is\ used\ in\ Greenfoot.\ This\ method\ also\ allows\ for\ when\ the\ "isGameLost"\ boolean\ is\ true,\ to\ run\ the\ method\ "transitionToGameOverWorld".\r\n
+comment3.params=
+comment3.target=void\ randomDirection()
+comment3.text=\r\n\ This\ method\ allows\ the\ snake\ to\ move\ in\ a\ random\ direction.\ As\ so\ the\ \r\n
+comment4.params=
+comment4.target=void\ moveAround()
+comment4.text=\r\n\ This\ method\ allows\ for\ the\ Snake\ to\ move\ around\ the\ world,\ as\ well\ as\ allow\ him\ to\ rotate\ by\ 180*\ whenever\ he\ is\ near\ an\ edge,\ so\ he\ won't\ be\ stuck\ on\ walls\ and\ such.\r\n
+comment5.params=
+comment5.target=void\ eliminatePig()
+comment5.text=\r\n\ This\ method\ allows\ the\ snake\ to\ eliminate\ the\ pig.\ Once\ the\ snake\ intersects\ with\ the\ pig,\ the\ pig\ gets\ removed,\ and\ plays\ the\ "lose.wav"\ sound\ effect.\r\n
+comment6.params=
+comment6.target=boolean\ isGameLost()
+comment6.text=\r\n\ In\ this\ method,\ the\ game\ is\ checking\ to\ see\ if\ there\ are\ any\ pig\ classes\ in\ the\ game.\ If\ the\ pig\ count\ is\ equal\ to\ zero,\ the\ game\ will\ consider\ isGameLost\ to\ be\ True.\r\n
+comment7.params=
+comment7.target=void\ transitionToGameOverWorld()
+comment7.text=\r\n\ This\ method\ allows\ the\ game\ to\ transition\ to\ the\ Game\ Over\ World.\r\n
+numComments=8
